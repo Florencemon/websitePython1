@@ -1,0 +1,14 @@
+ {% for tienda in artista %}
+                        
+                        <h2 style="color: #FF6A00"> RESULTADOS DE LA BÚSQUEDA: <i>" {{artista}} "</i> </h2>
+
+                        
+                 
+                        <p>
+                        <b> Nombre:</b> {{tienda.artista}} <br>  <b>Apellido:</b>{{tienda.album}} <br>  <b> Usuario:</b> {{tienda.genero}}<br> <b>Correo electrónico:</b> {{tienda.codigo}}<br><br>
+                 
+                 
+                         
+                        {% endfor %}
+
+                        </p>

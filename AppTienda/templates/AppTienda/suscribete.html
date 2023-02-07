@@ -1,0 +1,49 @@
+
+{% extends "AppTienda/inicio.html" %}
+
+{% load static %}
+
+{% block titulo %}
+
+Newsletter
+
+{% endblock %}
+
+{% block encabezado %}
+Suscribite a nuestro Newsletter
+{% endblock %}
+
+
+{% block encabezado2 %}
+
+Tenemos descuentos exclusivos para nuestra comunidad!!
+
+
+
+{% endblock %}
+{% block buscador %}
+{% endblock %}
+
+
+{% block blog %}
+<br>
+      
+
+       <form action="" method="POST">  {% csrf_token %}
+
+              <table>
+                     {{form3.as_table}}
+
+
+
+
+              </table>
+
+              
+              <input type="submit" value="Enviar :D">
+              
+       </form>
+
+<br>
+
+{% endblock %}

@@ -1,0 +1,56 @@
+{% extends "AppTienda/inicio.html" %}
+
+{% load static %}
+
+{% block titulo %}
+
+Añadir ítem
+
+{% endblock %}
+
+{% block encabezado %}
+<h1>
+Añadir nuevo ítem a la tienda</h1>
+{% endblock %}
+
+
+{% block encabezado2 %}
+
+<h4>Por favor, completá todos los datos solicitados</h4>
+
+
+
+{% endblock %}
+{% block buscador %}
+{% endblock %}
+
+
+{% block blog %}
+<br>
+<section id="scroll"> 
+       <div class="container px-5">
+              <div class="row gx-5 align-items-center">
+                     <div class="col-lg-6 order-lg-2">
+
+                            <form action="" method="POST">  {% csrf_token %}
+
+                                   <table>
+                                          {{form2.as_table}}
+                     
+                     
+                     
+                     
+                                   </table>
+                     
+                                   
+                                   <input type="submit" value="Enviar :D">
+                                   
+                            </form>
+                     </div>
+              </div>
+       </div>
+</section>
+
+<br>
+
+{% endblock %}

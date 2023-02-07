@@ -1,0 +1,56 @@
+{% extends "AppTienda/inicio.html" %}
+
+{% load static %}
+
+{% block titulo %}
+
+Mi perfil
+
+{% endblock %}
+
+{% block encabezado %}
+
+Mi perfil
+
+{% endblock %}
+
+
+{% block encabezado2 %}
+
+La Flojosa | Records Store
+
+
+
+{% endblock %}
+{% block buscador %}
+{% endblock %}
+
+
+{% block blog %}
+<section id="scroll"> 
+       <div class="container px-5">
+              <div class="row gx-5 align-items-center">
+                     <div class="col-lg-6 order-lg-2">
+
+                            <form action="" method="POST">  {% csrf_token %}
+
+                                   <table>
+                                          {{form1.as_table}}
+                     
+                     
+                     
+                     
+                                   </table>
+                     
+                                   
+                                   <input type="submit" value="Enviar :D">
+                                   
+                            </form>
+                     </div>
+              </div>
+       </div>
+</section>
+
+
+
+{% endblock %}

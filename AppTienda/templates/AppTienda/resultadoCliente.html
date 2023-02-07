@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+</head>
+<body>
+
+
+       {% for cliente in usuario %}
+       <h2 style="color: #FF6A00"> RESULTADOS DE LA BÚSQUEDA: <i>" {{nombre}} "</i> </h2>
+
+       
+
+       <p>
+       <b> Nombre:</b> {{cliente.nombre}} <br>  <b>Apellido:</b>{{cliente.apellido}} <br>  <b> Usuario:</b> {{cliente.usuario}}<br> <b>Correo electrónico:</b> {{cliente.mail}}<br><br>
+
+
+        
+       {% endfor %}
+
+       </p>
+
+</body>
+</html>
