@@ -18,3 +18,4 @@ Tercera pre-entrega CHIRINO FLORENCIA
   - AppTienda\templates\AppTienda\preventa.html
   - AppTienda\templates\AppTienda\suscribete.html
  
+Link a la BD en formato *.xlsx: https://docs.google.com/spreadsheets/d/1X4w5YBgsuzPMTPcoKOn4hUFb5LiSL9Md/edit#gid=1232618346
