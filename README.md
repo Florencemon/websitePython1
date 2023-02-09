@@ -2,6 +2,8 @@
 
 Tercera pre-entrega CHIRINO FLORENCIA
 
+#URL principal: http://localhost:8000/AppTienda/
+
 + los formularios para insertar datos se encuentran en los botones 'AÑADIR ÍTEM', '¿SOS NUEVO? 👤' & 'SUSCRIBITE'
 + el formulario para buscar algo en la BD está en la pestaña 'INICIO' y busca en la BD cliente
 + Bases de datos:
